@@ -39,9 +39,9 @@ public class Main {
         List<Person> listWorkers = workers.collect(Collectors.toList());
         System.out.println(listWorkers);
 
-        //System.out.println("Список призывников: ");
-        //List<String> listRecruits = recruits.collect(Collectors.toList());
-        //System.out.println(listRecruits);
+        System.out.println("Список призывников: ");
+        List<String> listRecruits = recruits.collect(Collectors.toList());
+        System.out.println(listRecruits);
 
         System.out.println("Количество совершеннолетних: " + adults.count());
 
